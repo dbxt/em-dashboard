@@ -137,7 +137,7 @@ export function DetailDrawer({ ev, config, onClose }: Props) {
         </section>
 
         <section>
-          <h3>Standup talking points</h3>
+          <h3>Next one on one</h3>
           <ul className="points">
             {points.map((p, i) => (
               <li key={i}><span className={`dot dot-${p.type}`} aria-hidden="true" />{p.text}</li>

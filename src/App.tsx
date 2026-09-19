@@ -6,7 +6,6 @@ import { EmployeeRow } from './components/EmployeeRow';
 import { Header } from './components/Header';
 import { SettingsPanel } from './components/SettingsPanel';
 import { SprintTimeline } from './components/SprintTimeline';
-import { StandupPanel } from './components/StandupPanel';
 import { TeamSummary } from './components/TeamSummary';
 import { useDashboardState } from './state/useDashboardState';
 
@@ -51,8 +50,6 @@ export default function App() {
             <span className="key key-pto" /> PTO
           </p>
         </section>
-
-        <StandupPanel evaluations={s.evaluations} day={s.day} onOpen={setOpenId} />
       </main>
 
       <footer className="page-foot">Simulated data · seed {s.seed} · a portfolio project, not connected to GitHub or Jira</footer>

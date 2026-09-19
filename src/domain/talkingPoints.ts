@@ -6,7 +6,7 @@ const isSenior = (role: Role) => role === 'Senior Engineer' || role === 'Staff E
 const pts = (n: number) => `${n} pt${n === 1 ? '' : 's'}`;
 
 /**
- * Suggested standup prompts for one person, driven by their warnings.
+ * Suggested one-on-one prompts for one person, driven by their warnings.
  * Wording is role-aware: juniors get pairing offers, senior folks get scope and delegation prompts.
  */
 export function talkingPointsFor(ev: Evaluation): TalkingPoint[] {

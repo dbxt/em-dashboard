@@ -1,7 +1,7 @@
 # Sprint Ledger
 
 An engineering-manager dashboard for a two-week sprint. It rolls each direct report's capacity, pace and open PRs
-into a Red / Amber / Green status and drafts talking points for the next standup.
+into a Red / Amber / Green status and drafts talking points for the next one on one.
 
 All data is simulated and seeded, so nothing connects to GitHub or Jira. Drag the day scrubber or press
 **Play sprint** to watch the sprint unfold.
@@ -43,5 +43,5 @@ Settings are saved in `localStorage`.
 ```
 src/domain/      types, seeded RNG, simulation, evaluation, talking points, tests
 src/state/       dashboard state hook and localStorage persistence
-src/components/  header, timeline, lane rows, summary, charts, drawer, standup, settings
+src/components/  header, timeline, lane rows, summary, charts, drawer, settings
 ```
