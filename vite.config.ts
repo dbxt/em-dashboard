@@ -6,7 +6,7 @@ const network = { host: '0.0.0.0', port: 5173, strictPort: true };
 
 export default defineConfig({
   plugins: [react()],
-  server: network,
+  server: { ...network, allowedHosts: ['em-dashboard.projects.davidwaynebaxter.net'] },
   preview: { ...network, port: 4173 },
   test: { environment: 'node', include: ['src/**/*.test.ts'] },
 });
