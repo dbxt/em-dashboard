@@ -235,7 +235,7 @@ main { display: grid; gap: 1.5rem; }
 .badge { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.3rem 0.65rem 0.3rem 0.5rem; border-radius: 8px; line-height: 1.15; }
 .badge-text { display: grid; }
 .badge-text strong { font-family: var(--font-display); font-size: 0.9375rem; font-weight: 700; }
-.badge-text small { font-size: 0.6875rem; opacity: 0.9; }
+.badge-text small { font-size: 0.6875rem; }
 .badge-green { background: var(--green-soft); color: var(--green-ink); }
 .badge-amber { background: var(--amber-soft); color: var(--amber-ink); }
 .badge-red { background: var(--red-soft); color: var(--red-ink); }
